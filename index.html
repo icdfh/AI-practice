@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashtag Popularity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px 0;
+            background-color: #6c63ff;
+            color: #fff;
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #6c63ff;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .day {
+            font-weight: bold;
+            background-color: #eaeaff;
+        }
+
+        .hashtag {
+            color: #6c63ff;
+            font-weight: bold;
+        }
+
+        td.number {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Hashtag Popularity Over a Week</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Hashtag</th>
+                <th>Mentions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Day 1 -->
+            <tr class="day"><td colspan="3">Day 1</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">520</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">320</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">180</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">270</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">400</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">290</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">350</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">450</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">260</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">190</td></tr>
+
+            <!-- Day 2 -->
+            <tr class="day"><td colspan="3">Day 2</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">610</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">370</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">210</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">310</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">450</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">330</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">400</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">500</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">290</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">220</td></tr>
+
+            <!-- Day 3 -->
+            <tr class="day"><td colspan="3">Day 3</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">670</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">410</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">230</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">350</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">490</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">370</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">430</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">530</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">320</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">250</td></tr>
+
+            <!-- Day 4 -->
+            <tr class="day"><td colspan="3">Day 4</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">720</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">450</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">250</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">380</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">530</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">410</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">470</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">570</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">350</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">280</td></tr>
+
+            <!-- Day 5 -->
+            <tr class="day"><td colspan="3">Day 5</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">780</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">490</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">270</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">420</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">570</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">440</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">510</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">610</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">380</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">310</td></tr>
+
+            <!-- Day 6 -->
+            <tr class="day"><td colspan="3">Day 6</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">830</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">530</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">300</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">450</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">610</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">480</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">550</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">650</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">410</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">340</td></tr>
+
+            <!-- Day 7 -->
+            <tr class="day"><td colspan="3">Day 7</td></tr>
+            <tr><td></td><td class="hashtag">#travel</td><td class="number">870</td></tr>
+            <tr><td></td><td class="hashtag">#food</td><td class="number">570</td></tr>
+            <tr><td></td><td class="hashtag">#tech</td><td class="number">330</td></tr>
+            <tr><td></td><td class="hashtag">#fitness</td><td class="number">480</td></tr>
+            <tr><td></td><td class="hashtag">#music</td><td class="number">650</td></tr>
+            <tr><td></td><td class="hashtag">#fashion</td><td class="number">510</td></tr>
+            <tr><td></td><td class="hashtag">#sports</td><td class="number">590</td></tr>
+            <tr><td></td><td class="hashtag">#gaming</td><td class="number">690</td></tr>
+            <tr><td></td><td class="hashtag">#photography</td><td class="number">450</td></tr>
+            <tr><td></td><td class="hashtag">#art</td><td class="number">370</td></tr>
+
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
